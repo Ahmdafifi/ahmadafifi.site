@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmad Afifi | Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('myBackgroundweb.png'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .backdrop {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+  <div class="backdrop rounded-2xl shadow-xl max-w-3xl w-full p-8 text-center text-white border border-white/20">
+    
+    <!-- Header Section -->
+    <h1 class="text-4xl font-bold mb-2">Ahmad Afifi</h1>
+    <p class="text-lg mb-1">Nightlife Hospitality / Graphic Designer</p>
+    <p class="text-sm text-gray-300 mb-6">📍 Dubai & Lebanon</p>
+    
+    <!-- PDF Viewer -->
+    <div class="mb-6">
+      <iframe 
+        src="ahmad_afifi_resume.pdf" 
+        class="w-full h-96 rounded-lg border-2 border-white/30" 
+        frameborder="0">
+        Your browser does not support PDFs. <a href="ahmad_afifi_resume.pdf">Download PDF</a>.
+      </iframe>
+    </div>
+
+    <!-- Download Button -->
+    <a href="ahmad_afifi_resume.pdf" download class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-xl transition-all">
+      Download PDF
+    </a>
+    
+  </div>
+</body>
+</html>
