@@ -4,10 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ahmad Afifi | Resume</title>
+
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Security Meta Tags -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; script-src 'self' https://cdn.tailwindcss.com; frame-src 'self';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ahmad Afifi">
+  <meta name="description" content="Resume of Ahmad Afifi - Nightlife Hospitality and Graphic Designer based in Dubai and Lebanon.">
+
   <style>
     body {
-      background-image: url('myBackgroundweb.png'); 
+      background-image: url('myBackgroundweb.png');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -19,19 +31,20 @@
 </head>
 <body class="min-h-screen flex items-center justify-center p-6">
   <div class="backdrop rounded-2xl shadow-xl max-w-3xl w-full p-8 text-center text-white border border-white/20">
-    
+
     <!-- Header Section -->
     <h1 class="text-4xl font-bold mb-2">Ahmad Afifi</h1>
     <p class="text-lg mb-1">Nightlife Hospitality / Graphic Designer</p>
     <p class="text-sm text-gray-300 mb-6">📍 Dubai & Lebanon</p>
-    
+
     <!-- PDF Viewer -->
     <div class="mb-6">
       <iframe 
         src="ahmad_afifi_resume.pdf" 
         class="w-full h-96 rounded-lg border-2 border-white/30" 
         frameborder="0">
-        Your browser does not support PDFs. <a href="ahmad_afifi_resume.pdf">Download PDF</a>.
+        Your browser does not support PDFs. 
+        <a href="ahmad_afifi_resume.pdf" download class="underline text-green-400">Download PDF</a>.
       </iframe>
     </div>
 
@@ -39,7 +52,7 @@
     <a href="ahmad_afifi_resume.pdf" download class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-xl transition-all">
       Download PDF
     </a>
-    
+
   </div>
 </body>
 </html>
